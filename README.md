@@ -49,12 +49,10 @@
 
 ## 📸 اسکرین‌شات‌ها
 
-> اسکرین‌شات‌ها را در مسیر `images/` قرار دهید و به‌صورت زیر در پروژه نمایش دهید:
-
-```html
-<img src="images/home_screen.png" width="300"/>
-<img src="images/detail_screen.png" width="300"/>
-```
+<div style="display:flex; gap: 10px;">
+  <img src="images/home.png" width="300"/>
+  <img src="images/detail.png" width="300"/>
+</div>
 
 ---
 
@@ -67,6 +65,7 @@
 ├── nav/                  # Navigation Graph
 ├── MainActivity.kt
 ├── Composables.kt        # کامپوزبل‌های مختلف مثل MemItem، SearchViewApp
+├── images/               # اسکرین‌شات‌ها
 ├── README.md
 ```
 
